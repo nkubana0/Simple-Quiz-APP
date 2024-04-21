@@ -49,10 +49,13 @@ body .app .quiz .btn {
   border-radius: 4px;
   cursor: pointer;
 }
-body .app .quiz .btn:hover {
+body .app .quiz .btn:hover:not([disabled]) {
   background: #222;
   color: #fff;
   transition: all 0.3s;
+}
+body .app .quiz .btn:disabled {
+  cursor: no-drop;
 }
 body .app #next-btn {
   background: #001e4d;

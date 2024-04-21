@@ -48,10 +48,13 @@ body {
                 border-radius: 4px;
                 cursor: pointer;
             }
-            .btn:hover {
+            .btn:hover:not([disabled]) {
                 background: #222;
                 color: #fff;
                 transition: all 0.3s;
+            }
+            .btn:disabled {
+                cursor:no-drop;
             }
         }
         #next-btn {
