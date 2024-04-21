@@ -12,10 +12,7 @@ To use the quiz app, follow these steps:
 
 1. Clone the repository to your local machine:
 
-git clone <repository_url>
-
-vbnet
-Copy code
+```git clone <repository_url>```
 
 2. Open the `index.html` file in your web browser.
 
